@@ -35,3 +35,22 @@ setTimeout(() => {
 
 // Run every second
 setInterval(updateCountdown, 1000);
+
+
+
+const audio = document.querySelector('#audio');
+
+function playSong() {
+  audio.play();
+}
+// to play the audio 
+window.addEventListener('click', playSong);
+window.addEventListener('scroll', playSong);
+window.addEventListener('mouseout', playSong);
+window.addEventListener('mousedown', playSong);
+window.addEventListener('mousemove', playSong);
+window.addEventListener('mouseup', playSong);
+window.addEventListener('mouseleave', playSong);
+window.addEventListener('touchstart', playSong);
+window.addEventListener('touchmove', playSong);
+window.addEventListener('touchend', playSong);
