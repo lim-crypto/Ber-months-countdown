@@ -5,10 +5,10 @@
 }
 
 body {
-  background-image: url('https://lifestyle.inquirer.net/files/2020/09/Super78871-e1599920280807.jpg');
+  background-image: url('https://images.unsplash.com/photo-1467810563316-b5476525c0f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1349&q=80');
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-position: center center; */
+  background-position: center center;
   height: 100vh;
   color: #fff;
   font-family: 'Lato', sans-serif;
